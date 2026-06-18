@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Darshan K R — Visual designer & Video Editor </title>
+  <meta name="description"
+    content="Professional video editor and colorist specializing in narrative films, commercials, and music videos. Award-winning post-production storytelling." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ============ LOADER ============ -->
+  <div id="loader" class="loader">
+    <div class="loader-bar"></div>
+    <span class="loader-text">LOADING</span>
+  </div>
+
+  <!-- ============ CURSOR ============ -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ============ NAV ============ -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">
+      D<span class="accent">.</span>K<span class="accent">.</span>R
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about" data-nav>About</a></li>
+      <li><a href="#work" data-nav>Work</a></li>
+      <li><a href="#services" data-nav>Services</a></li>
+      <li><a href="#testimonials" data-nav>Kind Words</a></li>
+      <li><a href="#contact" data-nav>Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ============ MOBILE MENU ============ -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-menu-links">
+      <li><a href="#about" data-mobile-nav>About</a></li>
+      <li><a href="#work" data-mobile-nav>Work</a></li>
+      <li><a href="#services" data-mobile-nav>Services</a></li>
+      <li><a href="#testimonials" data-mobile-nav>Kind Words</a></li>
+      <li><a href="#contact" data-mobile-nav>Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-tag reveal-up">VISUAL DESIGNER &amp; VIDEO EDITOR</p>
+      <h1 class="hero-title">
+        <span class="line reveal-up" style="--d:.1s">I craft stories</span>
+        <span class="line reveal-up" style="--d:.25s">through every <em class="accent-italic">frame</em></span>
+      </h1>
+      <p class="hero-sub reveal-up" style="--d:.4s">2+ years shaping narratives for brands, filmmakers &amp; artists
+        worldwide.</p>
+      <div class="hero-cta reveal-up" style="--d:.55s">
+        <a href="#work" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll reveal-up" style="--d:.7s">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-stats reveal-up" style="--d:.65s">
+      <div class="stat"><span class="stat-num" data-count="14">0</span><span class="stat-plus">+</span><span
+          class="stat-label">Projects</span></div>
+      <div class="stat"><span class="stat-num" data-count="6">0</span><span class="stat-plus">+</span><span
+          class="stat-label">Clients</span></div>
+    </div>
+  </header>
+
+  <!-- ============ MARQUEE ============ -->
+  <section class="marquee-section">
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>PREMIERE PRO</span><span class="sep">✦</span>
+        <span>DAVINCI RESOLVE</span><span class="sep">✦</span>
+        <span>AFTER EFFECTS</span><span class="sep">✦</span>
+        <span>ADOBE ILLUSTRATOR</span><span class="sep">✦</span>
+        <span>ADOBE PHOTOSHOP</span><span class="sep">✦</span>
+        <span>MOTION GRAPHICS</span><span class="sep">✦</span>
+        <span>COLOR GRADING</span><span class="sep">✦</span>
+        <span>UI & UX</span><span class="sep">✦</span>
+        <span>Web Design</span><span class="sep">✦</span>
+        <!-- duplicate for seamless loop -->
+        <span>PREMIERE PRO</span><span class="sep">✦</span>
+        <span>DAVINCI RESOLVE</span><span class="sep">✦</span>
+        <span>AFTER EFFECTS</span><span class="sep">✦</span>
+        <span>ADOBE ILLUSTRATOR</span><span class="sep">✦</span>
+        <span>ADOBE PHOTOSHOP</span><span class="sep">✦</span>
+        <span>MOTION GRAPHICS</span><span class="sep">✦</span>
+        <span>COLOR GRADING </span><span class="sep">✦</span>
+        <span>UI & UX</span><span class="sep">✦</span>
+        <span>Web Design</span><span class="sep">✦</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">01 / ABOUT</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <img src="Darshan.PNG" alt="Darshan K R" class="about-photo" />
+        </div>
+        <div class="about-right">
+          <h2 class="section-heading reveal-up">Telling stories<br /> one cut at a time.</h2>
+          <p class="about-text reveal-up">I'm Darshan K R — a filmmaker and editor based in Banglore with over two
+            years of experience in post-production. I specialise in narrative editing, colour grading, and visual
+            storytelling for short films, commercials, and digital content.</p>
+          <p class="about-text reveal-up">My philosophy is simple : Every frame should earn its place. I combine
+            technical precision with creative intuition to build compelling narratives that resonate with audiences and
+            drive results for brands.</p>
+          <div class="about-details reveal-up">
+            <div class="detail"><span class="detail-label">Based in</span><span> Banglore, India </span></div>
+            <div class="detail"><span class="detail-label">Experience</span><span>2+ Years</span></div>
+            <div class="detail"><span class="detail-label">Availability</span><span
+                class="available-dot"></span><span>Open for Projects</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK / PORTFOLIO ============ -->
+  <section class="section work" id="work">
+    <div class="container">
+      <div class="section-label reveal-up">02 / SELECTED WORK</div>
+      <h2 class="section-heading reveal-up">Featured Projects</h2>
+
+      <div class="work-filters reveal-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="film">Title animation</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="music">Product introduction Video</button>
+        <button class="filter-btn" data-filter="documentary">UI and UX Projects</button>
+        <button class="filter-btn" data-filter="documentary">Website design</button>
+      </div>
+
+      <div class="work-grid">
+        <article class="work-card reveal-up" data-category="film">
+          <div class="card-visual" style="--accent: #e74c3c">
+            <video class="card-video" src="Videos/Country pistol.mp4#t=1.0" playsinline preload="metadata" loop></video>
+            <div class="card-play-overlay">
+              <div class="card-icon">▶</div>
+              <span class="card-year">2025</span>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3>Country pistol</h3>
+            <p>Short Film — Title design &amp; animation</p>
+            <div class="card-tags"><span>Typography Animation</span><span>After effects</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal-up" data-category="film">
+          <div class="card-visual" style="--accent: #3498db">
+            <video class="card-video" src="Videos/Intro logo.mp4#t=1.0" playsinline preload="metadata" loop></video>
+            <div class="card-play-overlay">
+              <div class="card-icon">▶</div>
+              <span class="card-year">2025</span>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3>Intro Logo</h3>
+            <p>Title design &amp; animation</p>
+            <div class="card-tags"><span>Logo Reveal</span><span>Motion Graphics</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal-up" data-category="film">
+          <div class="card-visual" style="--accent: #9b59b6">
+            <video class="card-video" src="Videos/IO title.mp4#t=1.0" playsinline preload="metadata" loop></video>
+            <div class="card-play-overlay">
+              <div class="card-icon">▶</div>
+              <span class="card-year">2025</span>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3>IO</h3>
+            <p>Title design &amp; animation</p>
+            <div class="card-tags"><span>Sci-Fi</span><span>After Effects</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal-up" data-category="film">
+          <div class="card-visual" style="--accent: #1abc9c">
+            <video class="card-video" src="Videos/Matrimony.com.mp4#t=1.0" playsinline preload="metadata" loop></video>
+            <div class="card-play-overlay">
+              <div class="card-icon">▶</div>
+              <span class="card-year">2024</span>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3>Matrimony.com</h3>
+            <p>Title design &amp; animation</p>
+            <div class="card-tags"><span>Title Animation</span><span>Commercial</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal-up" data-category="commercial">
+          <div class="card-visual" style="--accent: #f39c12">
+            <video class="card-video" src="Videos/The Magnetic Shift.mp4#t=1.0" playsinline preload="metadata"
+              loop></video>
+            <div class="card-play-overlay">
+              <div class="card-icon">▶</div>
+              <span class="card-year">2026</span>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3>The Magnetic Shift</h3>
+            <p>Commercial Video</p>
+            <div class="card-tags"><span>Commercial</span><span>Premiere Pro</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal-up" data-category="music">
+          <div class="card-visual" style="--accent: #e67e22">
+            <video class="card-video" src="Videos/Introduction to Roboki.mp4#t=1.0" playsinline preload="metadata"
+              loop></video>
+            <div class="card-play-overlay">
+              <div class="card-icon">▶</div>
+              <span class="card-year">2026</span>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3>Introduction to Roboki</h3>
+            <p>Product Introduction Video</p>
+            <div class="card-tags"><span>Product Video</span><span>Unboxing</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SHOWREEL CTA ============ -->
+  <section class="reel-cta">
+    <div class="container">
+      <div class="reel-cta-inner reveal-up">
+        <h2>Watch the Full Showreel</h2>
+        <p>A 2-minute journey through my latest edits, colour work, and storytelling.</p>
+        <a href="#" class="btn btn-primary btn-lg">
+          <span class="play-icon">▶</span> Play Showreel
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-label reveal-up">03 / SERVICES</div>
+      <h2 class="section-heading reveal-up">What I Do</h2>
+      <div class="services-grid">
+        <div class="service-card reveal-up">
+          <span class="service-num">01</span>
+          <h3>Video Editing</h3>
+          <p>Narrative and commercial editing with focus on pacing, rhythm, and emotional storytelling across all
+            formats.</p>
+        </div>
+        <div class="service-card reveal-up">
+          <span class="service-num">02</span>
+          <h3>Color Grading</h3>
+          <p>Professional color correction and grading using DaVinci Resolve to establish mood, tone, and visual
+            consistency.</p>
+        </div>
+        <div class="service-card reveal-up">
+          <span class="service-num">03</span>
+          <h3>Motion Graphics</h3>
+          <p>Title design, lower thirds, animated infographics and visual effects that elevate production value.</p>
+        </div>
+        <div class="service-card reveal-up">
+          <span class="service-num">04</span>
+          <h3>Sound Design</h3>
+          <p>Audio mixing, SFX layering, and music supervision to create immersive, polished final deliverables.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="section process">
+    <div class="container">
+      <div class="section-label reveal-up">04 / PROCESS</div>
+      <h2 class="section-heading reveal-up">How I Work</h2>
+      <div class="process-timeline">
+        <div class="process-step reveal-up">
+          <div class="step-marker">
+            <span class="step-num">01</span>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Discovery</h3>
+            <p>Understanding your vision, audience, and goals through a detailed brief and creative call.</p>
+          </div>
+        </div>
+        <div class="process-step reveal-up">
+          <div class="step-marker">
+            <span class="step-num">02</span>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Assembly</h3>
+            <p>Building the initial rough cut, structuring the narrative, and selecting the best takes.</p>
+          </div>
+        </div>
+        <div class="process-step reveal-up">
+          <div class="step-marker">
+            <span class="step-num">03</span>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Refine</h3>
+            <p>Tightening pacing, adding transitions, colour grading, sound design, and motion graphics.</p>
+          </div>
+        </div>
+        <div class="process-step reveal-up">
+          <div class="step-marker">
+            <span class="step-num">04</span>
+          </div>
+          <div class="step-content">
+            <h3>Deliver</h3>
+            <p>Final review rounds, export in all required formats, and handoff with full project archive.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-label reveal-up">05 / KIND WORDS</div>
+      <h2 class="section-heading reveal-up">What Clients Say</h2>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial-card reveal-up">
+          <p class="quote">"Darshan has an extraordinary sense of pacing and rhythm. He elevated our brand film from
+            good
+            to truly cinematic. An absolute joy to collaborate with."</p>
+          <footer>
+            <strong>Sarah Chen</strong>
+            <span>Creative Director, Ogilvy</span>
+          </footer>
+        </blockquote>
+        <blockquote class="testimonial-card reveal-up">
+          <p class="quote">"Working with Darshan transformed our documentary. His ability to find the emotional thread
+            in
+            hundreds of hours of footage is unmatched."</p>
+          <footer>
+            <strong>Marcus Rivera</strong>
+            <span>Producer, National Geographic</span>
+          </footer>
+        </blockquote>
+        <blockquote class="testimonial-card reveal-up">
+          <p class="quote">"The colour grading Darshan delivered gave our music video a completely unique visual
+            identity.
+            He understood the vibe instantly and exceeded expectations."</p>
+          <footer>
+            <strong>Luna Grey</strong>
+            <span>Recording Artist</span>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label reveal-up">06 / CONTACT</div>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <h2 class="contact-heading reveal-up">Let's create<br />something <em class="accent-italic">remarkable</em>.
+          </h2>
+          <p class="contact-sub reveal-up">Accepting new projects . Drop me a line and let's talk
+            about your vision.</p>
+          <div class="contact-links reveal-up">
+            <a href="mailto:hello.darshankr@gmail.com" class="contact-link">hello.darshankr@gmail.com</a>
+            <div class="social-links">
+              <a href="#" aria-label="YouTube">YouTube</a>
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=darshan-kr-1328a5348"
+                aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal-up" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Tell me about your project</label>
+            <textarea id="message" name="message" rows="4" placeholder="Brief overview, timeline, budget range…"
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo"> Darshan K R <span class="accent">.</span></span>
+      <span class="footer-copy">&copy; 2026 — All rights reserved</span>
+      <a href="#hero" class="back-to-top" aria-label="Back to top">↑ Top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

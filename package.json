@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Darshan portfolio with contact form sending to WhatsApp and Gmail",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Darshan K R",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemailer": "^6.9.13"
+  }
+}
